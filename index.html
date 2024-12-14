@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Quiz</h1>
+      <p>Click on the questions to reveal the answers!</p>
+    </header>
+
+    <div class="quiz-container">
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">What is the capital of Egypt?</p>
+        <p class="answer">The capital of Egypt is Cairo.</p>
+      </div>
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">What is 5 x 6?</p>
+        <p class="answer">The answer is 30.</p>
+      </div>
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">What is the color of grass?</p>
+        <p class="answer">The grass is green.</p>
+      </div>
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">Which planet is known as the Red Planet?</p>
+        <p class="answer">Mars is the Red Planet.</p>
+      </div>
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">What is the largest ocean on Earth?</p>
+        <p class="answer">The Pacific Ocean is the largest.</p>
+      </div>
+      <div class="question" onclick="toggleAnswer(this)">
+        <p class="question-text">How many continents are there in the world?</p>
+        <p class="answer">There are seven continents.</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2024 Interactive Quiz. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
